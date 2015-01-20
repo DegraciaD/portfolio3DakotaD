@@ -1,0 +1,27 @@
+div{
+  border-style: hidden;
+  /*this border style that hides all the containers and rows you made*/
+  border-width:5px;
+  padding:60px;
+}
+
+.container{
+    border-color: red;
+}
+
+.row{
+    border-color: gold
+}
+
+.list-group-item{
+    border: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* this  is the margins around your links that you made like the links you made to you about me page your technology page ,and your projects page.*/
+}
+
+body{
+   background-image: url(http://i.imgur.com/uO5GYDo.gif)
+   /*this is a background image of Deathstroke my favorite villan from the game  batman arkham origins*/
+}
+  
