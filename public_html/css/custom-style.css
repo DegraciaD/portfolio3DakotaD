@@ -24,4 +24,8 @@ body{
    background-image: url(http://i.imgur.com/uO5GYDo.gif)
    /*this is a background image of Deathstroke my favorite villan from the game  batman arkham origins*/
 }
+
+.jumbotron{
+    opacity: 0.5;
+}
   

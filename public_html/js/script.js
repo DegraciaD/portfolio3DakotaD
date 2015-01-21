@@ -14,7 +14,7 @@ $('#hide').bind('click', hideThepage);
     
     $('#show').bind('click', showThepage);
     
-    $('h1').bind('click',mouseClick);
+    $('#h1').bind('click', mouseClick);
     
     $('#replaceWtext').bind('click',replaceWtext);
     
@@ -23,14 +23,14 @@ $('#hide').bind('click', hideThepage);
     $('#removePara').bind('click', removeAPara);
 });
 function hideThepage(){
-    $('show').css('visibility', 'visible');
-    $('div').hide('slide', {}, 2500);
+    $('#show').css('visibility', 'visible');
+    $('#div').hide('slide', {}, 2500);
     $("#show").show('fold', {}, 2500);
 }
 
 function showThepage(){
-    $('div').show('fold', {}, 2500);
-    $('show').show('puff', {}, 2500);
+    $('#div').show('fold', {}, 2500);
+    $('#show').show('puff', {}, 2500);
     
 }
 
@@ -46,6 +46,11 @@ function replaceWtext(){
     $('#replaceWtext').text("<h1> hi my name is bob</h1>");
  
 }
+
+function mouseClick(){
+    ("#mouseClick").html("4");
+}
+
 function mouseOutMe(){
 
  
